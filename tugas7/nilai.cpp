@@ -15,7 +15,10 @@ int main(){
 		cout<<"Nilai Anda : C";
 	}else if(nilai >= 35.0 && nilai <= 49.0){
 		cout<<"Nilai Anda : D";
-	}else {
+	}else if(nilai >= 0 && nilai <= 34.0){
 		cout<<"Nilai Anda : E";
+	}else {
+		cout<<"Angka Yang Anda Masukan Salah "<<endl;
+		goto ulang;
 	}
 }
